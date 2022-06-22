@@ -29,7 +29,7 @@ create table AlbumList (
 create table AlbumTrackList (
     Track_id SERIAL primary key,
     Track_name VARCHAR(50) not null,
-    Track_duration VARCHAR(5) not null,
+    Track_duration INTEGER not null,
     Album_id INTEGER not null references AlbumList(Album_id)
 );
 
