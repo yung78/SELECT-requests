@@ -8,7 +8,7 @@ WHERE Track_duration = (SELECT MAX(Track_duration) FROM AlbumTrackList)
 
 --3
 SELECT Track_name FROM AlbumTrackList
-WHERE Track_duration > '3:30'
+WHERE Track_duration > 210
 
 --4 (вариант1)
 SELECT Collection_name FROM TrackCollections
