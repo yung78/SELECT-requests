@@ -68,24 +68,24 @@ values
 insert into
 AlbumTrackList(Track_name, Album_id, Track_duration)
 values
-('Future is comming', 1, '4:25'),
-('Track for my gigrl', 1, '3:50'),
-('Agent Orange', 2, '4:12'),
-('Startrack', 2, '3:41'),
-('Blue moon', 3, '5:09'),
-('Fly me to the sun', 3, '2:23'),
-('Guest from the heaven', 4, '3:53'),
-('Forester', 4, '3:11'),
-('I am dropping the west', 5, '2:40'),
-('My bitch is a whore', 5, '2:37'),
-('Broken tongue', 6, '3:28'),
-('Еhe city under the sole', 6, '3:29'),
-('Vocal expression', 7, '2:54'),
-('You are in my hurt', 7, '3:32'),
-('You are in my hurt(DJ Bazinga remix)', 7, '4:05'),
-('Love', 8, '2:11'),
-('Tram pam pam', 8, '2:20'),
-('Tram pam pam(Teddy killerz remix)', 8, '2:20')
+('Future is comming', 1, 285),
+('Track for my gigrl', 1, 230),
+('Agent Orange', 2, 252),
+('Startrack', 2, 221),
+('Blue moon', 3, 309),
+('Fly me to the sun', 3, 148),
+('Guest from the heaven', 4, 237),
+('Forester', 4, 191),
+('I am dropping the west', 5, 160),
+('My bitch is a whore', 5, 153),
+('Broken tongue', 6, 208),
+('Еhe city under the sole', 6, 209),
+('Vocal expression', 7, 176),
+('You are in my hurt', 7, 212),
+('You are in my hurt(DJ Bazinga remix)', 7, 245),
+('Love', 8, 131),
+('Tram pam pam', 8, 140),
+('Tram pam pam(Teddy killerz remix)', 8, 159)
 
 insert into
 TrackCollections(Collection_name, Release_year)
