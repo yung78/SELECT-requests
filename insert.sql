@@ -5,7 +5,7 @@ values
 ('jazz'),
 ('rock'),
 ('rap'),
-('pop')
+('pop');
 
 insert into
 MusicArtistList(Artist_name)
@@ -17,7 +17,7 @@ values
 ('Trash 88'),
 ('MC Pumkin'),
 ('Diva Plavalaguna'),
-('Dumpwhore')
+('Dumpwhore');
 
 insert into
 ArtistGenre(Artist_id, Genre_id)
@@ -31,7 +31,7 @@ values
 (7, 5),
 (8, 5),
 (6, 1),
-(7, 2)
+(7, 2);
 
 insert into
 AlbumList(Album_name, Album_release_year)
@@ -43,27 +43,27 @@ values
 ('Die bitch', 2015),
 ('Yo-yo-yo', 2018),
 ('5th element', 2019),
-('Oops', 2018)
+('Oops', 2018);
 
 insert into
 AlbumArtist(Artist_id, Album_id)
 values
-(1, 1),
-(2, 2),
-(3, 3),
-(4, 4),
-(5, 5),
-(6, 6),
-(7, 7),
-(8, 8),
-(2, 1),
-(7, 1),
-(6, 2),
-(6, 5),
-(5, 6),
-(1, 7),
-(7, 8),
-(2, 8)
+(1, 1, TRUE),
+(2, 2, TRUE),
+(3, 3, TRUE),
+(4, 4, TRUE),
+(5, 5, TRUE),
+(6, 6, TRUE),
+(7, 7, TRUE),
+(8, 8, TRUE),
+(2, 1, FALSE),
+(7, 1, FALSE),
+(6, 2, FALSE),
+(6, 5, FALSE),
+(5, 6, FALSE),
+(1, 7, FALSE),
+(7, 8, FALSE),
+(2, 8, FALSE);
 
 insert into
 AlbumTrackList(Track_name, Album_id, Track_duration)
@@ -85,7 +85,7 @@ values
 ('You are in my hurt(DJ Bazinga remix)', 7, 245),
 ('Love', 8, 131),
 ('Tram pam pam', 8, 140),
-('Tram pam pam(Teddy killerz remix)', 8, 159)
+('Tram pam pam(Teddy killerz remix)', 8, 159);
 
 insert into
 TrackCollections(Collection_name, Release_year)
@@ -97,7 +97,7 @@ values
 ('MC Pumkin & Trash 88', 2018),
 ('Diva Plavalaguna feat. DJ Bazinga', 2019),
 ('Dumpwhore & Diva Plavalaguna', 2018),
-('Dumpwhore feat. Teddy killerz', 2018)
+('Dumpwhore feat. Teddy killerz', 2018);
 
 insert into
 CollectionTrackList(Collection_id, Track_id)
@@ -109,4 +109,4 @@ values
 (5, 11),
 (6, 15),
 (7, 16),
-(8, 18)
+(8, 18);
