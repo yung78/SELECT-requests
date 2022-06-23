@@ -20,10 +20,11 @@ create table AlbumList (
     Album_release_year INTEGER not null
   );
 
- create table AlbumArtist (
+ create table if not exists AlbumArtist (
     id SERIAL primary key,
     Artist_id INTEGER not null references MusicArtistList(Artist_id),
-    Album_id INTEGER not null references AlbumList(Album_id)
+    Album_id INTEGER not null references AlbumList(Album_id),
+    Creator BOOLEAN not null 
 );
 
 create table AlbumTrackList (
